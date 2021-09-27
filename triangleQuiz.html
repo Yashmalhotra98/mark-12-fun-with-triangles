@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="/generic.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="quiz-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45° ?</p>
+                <label><input type="radio" name="question1" value="45" />45°</label>
+                <!-- The name attribute specifies a single group for all the radio buttons with the same name & only one value can be selected amonst them. While the value attribute specifies the actual value for the input 'Hard-coded' -->
+                <label><input type="radio" name="question1" value="60" />60°</label>
+                <label><input type="radio" name="question1" value="90" />90°</label>
+
+            </div>
+            <div class="quiz-container">
+                <p>If a triangle has an angle of 90°, what is it called?</p>
+                <label><input type="radio" name="question2" value="Acute" />Acute</label>
+                <label><input type="radio" name="question2" value="Obtuse" />Obtuse</label>
+                <label><input type="radio" name="question2" value="Right-Angled" />Right-Angled</label>
+
+            </div>
+        </form>
+        <button id="submit-answer-btn">Submit Answers</button>
+        <div id="output"></div>
+    </div>
+    <script src="/triangleQuiz.js"></script>
+</body>
+
+</html>
