@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
     <link rel="stylesheet" href="/generic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,11 +17,16 @@
         <h1>
             Calculate Hypotenuse
         </h1>
-        <label>a = </label>
-        <input type="number" class="side-input" />
-        <label>b = </label>
-        <input type="number" class="side-input" />
-        <button id="hypotenuse-button">Calculate Hypotenuse</button>
+        <div class="input-container">
+            <label>a = </label>
+            <input type="number" class="side-input" />
+        </div>
+        <div class="input-container">
+            <label>b = </label>
+            <input type="number" class="side-input" />
+        </div>
+
+        <button class='button' id="hypotenuse-button">Calculate Hypotenuse</button>
         <div id="output"></div>
     </div>
     <script src="/calculateHypotenuse.js"></script>
