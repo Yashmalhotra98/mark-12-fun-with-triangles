@@ -10,7 +10,7 @@ body,
     background: #e698db;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a {
@@ -63,7 +63,7 @@ a {
     min-width: 250px;
     margin: 16px;
     padding: 20px;
-    background: #fff;
+    background: rgb(243, 114, 243);
 }
 
 .card--loading,
