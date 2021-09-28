@@ -6,13 +6,13 @@
 
     function calculateScore() {
         let score = 0;
-        let i = 0;
+        let ind = 0;
         const formResults = new FormData(quizForm);
         for (let value of formResults.values()) {
-            if (value === correctAnswers[i]) {
+            if (value === correctAnswers[ind]) {
                 score = score + 1;
             }
-            i = i + 1;
+            ind = ind + 1;
         }
         outputEl.innerText = "Your score: " + score;
     }
