@@ -37,7 +37,7 @@ body,
     outline: none;
 }
 
-#is-triangle-button,
+#btn-is-triangle,
 .button {
     padding: .8rem 1.5rem;
     font-size: 1.2rem;
